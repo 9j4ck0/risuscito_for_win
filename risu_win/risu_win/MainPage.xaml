@@ -25,8 +25,6 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
-
-        <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
         	<TextBlock x:Name="ApplicationTitle" Text="Home page" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FFA14443" FontSize="26.667"/>
         </StackPanel>
@@ -40,8 +38,8 @@
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" d:IsHidden="True">
             <shell:ApplicationBarIconButton x:Name="Cerca_bmenu" IconUri="/icons/appbar.feature.search.rest.png" Text="Cerca" Click="Cerca_bmenu_Click"/>
             <shell:ApplicationBarIconButton x:Name="Indici_bmenu" IconUri="/icons/wp7_list_bulleted_white_36dp.png" Text="Indici"  Click="Indici_bmenu_Click"/>
-            <shell:ApplicationBarIconButton x:Name="Liste_bmenu" IconUri="/icons/appbar.edit.rest.png" Text="Liste" Click="Changelog_bmenu_Click"/>
-            <shell:ApplicationBarIconButton x:Name="Preferiti_bmenu" IconUri="/icons/appbar.favs.rest.png" Text="Preferiti" Click="Changelog_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Liste_bmenu" IconUri="/icons/appbar.edit.rest.png" Text="Liste" Click="Liste_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Preferiti_bmenu" IconUri="/icons/appbar.favs.rest.png" Text="Preferiti" Click="Preferiti_bmenu_Click"/>
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem x:Name="Impostazioni_bmenu" Text="Impostazioni" IsEnabled="True" d:IsHidden="True"/>
                 <shell:ApplicationBarMenuItem x:Name="Changelog_bmenu" Text="Changelog" Click="Changelog_bmenu_Click"/>
