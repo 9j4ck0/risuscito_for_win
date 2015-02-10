@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" 
+    x:Class="risu_win.MainPage"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+<!--	<phone:PhoneApplicationPage.Resources>
+	</phone:PhoneApplicationPage.Resources>-->
+
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+        	<RowDefinition Height="Auto"/>
+        	<RowDefinition Height="Auto" MinHeight="615"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
+
+        <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+        	<TextBlock x:Name="ApplicationTitle" Text="Home page" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FFA14443" FontSize="26.667"/>
+        </StackPanel>
+        <Image Margin="0,113,0,0" x:Name="title_bottom" Width="456" Source="wp_launcher.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Center" Tap="title_bottom_Tap" />
+
+        <!--ContentPanel - inserire ulteriore contenuto qui-->
+    </Grid>
+ 
+    <!--Codice di esempio che illustra l'utilizzo di ApplicationBar-->
+   <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" d:IsHidden="True">
+            <shell:ApplicationBarIconButton x:Name="Cerca_bmenu" IconUri="/icons/appbar.feature.search.rest.png" Text="Cerca" Click="Cerca_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Indici_bmenu" IconUri="/icons/wp7_list_bulleted_white_36dp.png" Text="Indici"  Click="Indici_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Liste_bmenu" IconUri="/icons/appbar.edit.rest.png" Text="Liste" Click="Changelog_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Preferiti_bmenu" IconUri="/icons/appbar.favs.rest.png" Text="Preferiti" Click="Changelog_bmenu_Click"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="Impostazioni_bmenu" Text="Impostazioni" IsEnabled="True" d:IsHidden="True"/>
+                <shell:ApplicationBarMenuItem x:Name="Changelog_bmenu" Text="Changelog" Click="Changelog_bmenu_Click"/>
+                <shell:ApplicationBarMenuItem x:Name="Ringrazia_bmenu" Text="Ringrazia" IsEnabled="False" d:IsHidden="True"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

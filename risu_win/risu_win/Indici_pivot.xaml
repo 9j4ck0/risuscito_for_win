@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="risu_win.Indici_pivot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Controllo Pivot-->
+        <controls:Pivot Title="INDICI DEI CANTI">
+            <!--Elemento Pivot uno-->
+            <controls:PivotItem Header="Alfabetico">
+                <Grid>
+                	<ListBox x:Name="Elenco_Alfabetico" Height="535" Width="456"/>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Elemento Pivot due-->
+            <controls:PivotItem Header="Pagina">
+                <Grid/>
+            </controls:PivotItem>
+
+            <!--Elemento Pivot tre-->
+            <controls:PivotItem Header="Argomento">
+                <Grid>
+                	<ListBox x:Name="Elenco_Argomento" Height="535" Width="456"/>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Elemento Pivot quattro-->
+            <controls:PivotItem Header="Salmi">
+                <Grid>
+                	<ListBox x:Name="Elenco_Salmi" Height="535" Width="456"/>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+
+    <!--Codice di esempio che illustra l'utilizzo di ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" d:IsHidden="True">
+            <shell:ApplicationBarIconButton x:Name="Home_bmenu" IconUri="/icons/wp7_home_white_36dp.png" Text="Home" Click="Home_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Cerca_bmenu" IconUri="/icons/appbar.feature.search.rest.png" Text="Cerca" Click="Liste_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Liste_bmenu" IconUri="/icons/appbar.edit.rest.png" Text="Liste" Click="Liste_bmenu_Click"/>
+            <shell:ApplicationBarIconButton x:Name="Preferiti_bmenu" IconUri="/icons/appbar.favs.rest.png" Text="Preferiti" Click="Preferiti_bmenu_Click"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="Impostazioni_bmenu" Text="Impostazioni" IsEnabled="True" d:IsHidden="True"/>
+                <shell:ApplicationBarMenuItem x:Name="Changelog_bmenu" Text="Changelog" Click="Changelog_bmenu_Click"/>
+                <shell:ApplicationBarMenuItem x:Name="Ringrazia_bmenu" Text="Ringrazia" IsEnabled="False" d:IsHidden="True"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+</phone:PhoneApplicationPage>

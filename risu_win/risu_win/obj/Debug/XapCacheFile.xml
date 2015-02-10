@@ -1,0 +1,21 @@
+﻿<xapCache source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\risu_win.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/02/2015 15:53:18">
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06/02/2015 11:05:47" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Background.png" archivePath="Background.png" lastWriteTime="05/02/2015 18:31:15" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="05/02/2015 18:31:15" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\obj\Debug\risu_win.dll" archivePath="risu_win.dll" lastWriteTime="10/02/2015 15:53:18" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="19/03/2012 16:29:06" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\icons\appbar.edit.rest.png" archivePath="icons\appbar.edit.rest.png" lastWriteTime="29/08/2011 23:12:58" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\icons\appbar.favs.rest.png" archivePath="icons\appbar.favs.rest.png" lastWriteTime="29/08/2011 23:13:00" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\icons\appbar.feature.search.rest.png" archivePath="icons\appbar.feature.search.rest.png" lastWriteTime="29/08/2011 23:47:42" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="05/02/2015 18:31:15" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\icons\wp7_home_white_36dp.png" archivePath="icons\wp7_home_white_36dp.png" lastWriteTime="12/11/2014 22:14:20" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\icons\wp7_list_bulleted_white_36dp.png" archivePath="icons\wp7_list_bulleted_white_36dp.png" lastWriteTime="12/11/2014 22:14:20" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="06/02/2015 11:05:47" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="05/02/2015 18:31:15" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="05/02/2015 18:31:15" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\icons\appbar.edit.rest.png" archivePath="icons\appbar.edit.rest.png" lastWriteTime="29/08/2011 23:12:58" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\icons\appbar.favs.rest.png" archivePath="icons\appbar.favs.rest.png" lastWriteTime="29/08/2011 23:13:00" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\icons\appbar.feature.search.rest.png" archivePath="icons\appbar.feature.search.rest.png" lastWriteTime="29/08/2011 23:47:42" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\icons\wp7_home_white_36dp.png" archivePath="icons\wp7_home_white_36dp.png" lastWriteTime="12/11/2014 22:14:20" />
+  <file source="D:\risuscitò\risu_win\risu_win\risu_win\Bin\Debug\icons\wp7_list_bulleted_white_36dp.png" archivePath="icons\wp7_list_bulleted_white_36dp.png" lastWriteTime="12/11/2014 22:14:20" />
+</xapCache>
